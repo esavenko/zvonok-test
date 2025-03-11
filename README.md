@@ -1,5 +1,29 @@
-# Vue 3 + TypeScript + Vite
+## Weather App
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Тестовое задание приложения для погоды. Часть данных является статикой из проекта.
+GH-pages настроены через ci.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+Для использования проекта в девелопмент среде:
+
+Клонировать репозиторий
+```
+git clone [HTTPS or SSH]
+```
+Установить зависимости
+```
+yarn or yarn install --frozen-lockfile
+```
+Запустить проект
+```
+yarn dev
+```
+
+Для билда приложения использовать
+```
+yarn build
+```
+
+### Стек технологий
+- [Vue](https://vuejs.org/)
+- [Vue router](https://router.vuejs.org/)
+- [Sass](https://sass-lang.com/)

@@ -1,0 +1,19 @@
+@use './valiables' as *;
+
+@mixin desktop() {
+  @media screen and (max-width: $desktop) {
+    @content;
+  }
+}
+
+@mixin laptop() {
+  @media screen and (max-width: $laptop) {
+    @content;
+  }
+}
+
+@mixin phone() {
+  @media screen and (max-width: $phone) {
+    @content;
+  }
+}

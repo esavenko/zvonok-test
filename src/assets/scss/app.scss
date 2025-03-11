@@ -1,0 +1,26 @@
+@use './valiables' as *;
+@use './fonts' as *;
+@use './animations/transition' as *;
+@use './animations/fadeOut' as *;
+
+html {
+  width: 100%;
+  min-width: 320px;
+  height: 100%;
+  font-size: 18px;
+  font-family: Geologica, sans-serif;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(800deg ,rgba(5, 38, 82, 1), rgba(45,156, 219, 1));
+  color: $primary;
+}
+
+body * {
+  font-family: Geologica, sans-serif;
+}
